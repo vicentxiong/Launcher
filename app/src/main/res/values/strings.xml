@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Launcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="system_app_tip">系统应用无法卸载</string>
+    <string name="addwidget_nospace_tip">此桌面无足够空间</string>
+    <string name="glide_animation">滑动动画</string>
+    <string name="wallPaper">壁纸</string>
+    <string name="widgetPick">小部件</string>
+    <string name="shortcutPick">快捷方式</string>
+    <string name="folderadd">文件夹</string>
+    <string name="oneditscreen">此屏无法添加</string>
+    <string name="shortcup_nospace_tip">此桌面无足够空间</string>
+    <string name="folder_default_name">文件夹</string>
+    <string name="folder_edit_complete">确定</string>
+	<string name="folder_lable_null">未命名</string>
+	<string name="folder_nospace_tip">此桌面无足够空间</string>
+	<string name="uninstall_folder_comfire_str">解散</string>
+	<string name="uninstall_folder_cancel_str">取消</string>
+	<string name="uninstall_folder_summary_str">解散后将放于桌面</string>
+</resources>

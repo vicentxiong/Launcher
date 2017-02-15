@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.xiong.launcher.ui.DragLayer
+        android:id="@+id/drag_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.xiong.launcher.ui.Workspace
+            android:id="@+id/workspace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.xiong.launcher.ui.Workspace>
+
+        <include
+            android:id="@+id/hotseats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/hotseat" />
+
+        <com.xiong.launcher.ui.WorkSpaceDividing
+            android:id="@+id/workspace_dividing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        </com.xiong.launcher.ui.WorkSpaceDividing>
+
+        <include
+            android:id="@+id/folder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/folder_detail_view"
+            android:visibility="gone" />
+        
+        <com.xiong.launcher.ui.ShadowFrameLayout 
+            android:id="@+id/shadowlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#33ffffff"/>
+        
+    </com.xiong.launcher.ui.DragLayer>
+
+    <include
+        android:id="@+id/deleteZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/delete_zone"
+        android:visibility="gone" />
+    
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/folder_dissolve_view"
+        android:visibility="gone"/>
+
+</FrameLayout>

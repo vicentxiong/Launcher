@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_dissolve_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:background="@drawable/delete_zone_bg">
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="horizontal">
+	    <ImageView 
+	        android:id="@+id/folder_background"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/hs_folder"/>
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+			<TextView 
+			    android:id="@+id/uninstall_folder_name"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="jdkjfdkljfkld"/>
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/uninstall_folder_summary_str"/>	        
+	    </LinearLayout>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/folder_dissolve_comfire"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/folder_dissolve_comfire"
+	        android:text="@string/uninstall_folder_comfire_str"/>
+	    
+	    
+	 	<Button 
+	        android:id="@+id/folder_dissolve_cancel"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/folder_dissolve_cancel"
+	        android:text="@string/uninstall_folder_cancel_str"/>
+	</LinearLayout>
+</LinearLayout>

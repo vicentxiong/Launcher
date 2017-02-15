@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiong.launcher.ui.Folder xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#dd000000"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="30dp" >
+    
+    <include 
+        android:id="@+id/folder_edit_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/folder_edit_label_view"
+        android:layout_marginBottom="@dimen/folder_detanil_paddingbottom"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/folder_dentail_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/folder_detanil_paddingbottom"
+        android:gravity="center"
+        android:shadowColor="#FF000000"
+        android:shadowRadius="4.0"
+        android:textColor="@color/apps_customize_icon_text_color" 
+        android:textSize="30sp"/>
+
+    <GridView
+        android:id="@+id/folderGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+</com.xiong.launcher.ui.Folder>

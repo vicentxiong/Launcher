@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:orientation="horizontal" >
+    
+    <EditText 
+        android:id="@+id/folder_edit_label"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_weight="5"
+        android:background="@drawable/folder_setting_rename_bg"/>
+    
+    <Button 
+        android:id="@+id/folder_edit_ok"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_weight="3"
+        android:text="@string/folder_edit_complete"
+        android:background="@drawable/folder_edit_label_confirm"/>
+	
+</LinearLayout>

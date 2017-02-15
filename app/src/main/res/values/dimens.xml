@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="cell_margin_left">16dp</dimen>
+    <dimen name="cell_margin_top">6dp</dimen>
+    <dimen name="dividingHeight">12dp</dimen>
+    <dimen name="app_icon_size">60dp</dimen>
+    <dimen name="row_gap">10dp</dimen>
+    <dimen name="column_gap">16dp</dimen>
+     <dimen name="app_text_size">13px</dimen>
+     <dimen name="deletezone_paddingtop">2dp</dimen>
+     <dimen name="deletezone_paddingbottom">14dp</dimen>
+     <dimen name="folder_icon_padding">4dp</dimen>
+     <dimen name="folder_detanil_paddingbottom">25dp</dimen>
+</resources>

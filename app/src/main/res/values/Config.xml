@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_filter_class">com.xiong.launcher.controller.AppFilterImpl</string>
+    <integer name="config_delete_zone_animation_duration">30</integer>
+    <integer name="config_editmodeAnimTime">300</integer>
+     <integer name="config_foldergen_AnimTime">300</integer>
+</resources>

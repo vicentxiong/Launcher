@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiong.launcher.ui.HotSeat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.xiong.launcher.ui.CellLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/functionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/functionContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.xiong.launcher.ui.FunctionTextView
+                android:id="@+id/wallPaperItem"
+                style="@style/WorkspaceIcon.SelectItem"
+                android:drawableTop="@drawable/hs_wallpaper"
+                android:text="@string/wallPaper" />
+
+            <com.xiong.launcher.ui.FunctionTextView
+                android:id="@+id/animationItem"
+                style="@style/WorkspaceIcon.SelectItem"
+                android:drawableTop="@drawable/hs_animation"
+                android:text="@string/glide_animation" />
+
+            <com.xiong.launcher.ui.FunctionTextView
+                android:id="@+id/widgetItem"
+                style="@style/WorkspaceIcon.SelectItem"
+                android:drawableTop="@drawable/hs_widget"
+                android:text="@string/widgetPick" />
+
+            <com.xiong.launcher.ui.FunctionTextView
+                android:id="@+id/shortCutItem"
+                style="@style/WorkspaceIcon.SelectItem"
+                android:drawableTop="@drawable/hs_shortcut"
+                android:text="@string/shortcutPick" />
+
+            <com.xiong.launcher.ui.FunctionTextView
+                android:id="@+id/folderItem"
+                style="@style/WorkspaceIcon.SelectItem"
+                android:drawableTop="@drawable/hs_folder"
+                android:text="@string/folderadd" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</com.xiong.launcher.ui.HotSeat>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_dialog_item_bg" >
+
+    <ImageView
+        android:id="@+id/item_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/blue_oval"
+        android:src="@drawable/tick"
+        android:visibility="invisible"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/select_dialog_item_iew" />
+
+</FrameLayout>
